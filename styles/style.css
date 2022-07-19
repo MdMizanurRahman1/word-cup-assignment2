@@ -1,0 +1,58 @@
+/*...font poppins added here....*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+
+.football {
+    display: flex;
+    color: #FFFFFF;
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-right: 110px;
+    margin-bottom: 110px;
+    background: #161616;
+    border-radius: 30px;
+    align-items: flex-end;
+
+}
+
+.section-title {
+    padding: 20px 100px 30px 100px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+
+}
+
+.title-text {
+    font-weight: normal;
+    font-size: 13px;
+    font-family: 'Poppins';
+
+}
+
+.button-icon {
+    display: flex;
+    background: #DD0000;
+    width: 140px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.live-button,
+.icon {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-player {
+    padding-top: 30px;
+    padding-right: 48px;
+}
