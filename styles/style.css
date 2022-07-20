@@ -73,6 +73,7 @@ main {
     text-align: center;
     padding: 20px;
     margin-top: 14px;
+    max-width: 220px;
 }
 
 .button1,
@@ -84,6 +85,7 @@ main {
     margin: 25px;
     align-items: center;
     padding-top: 20px;
+    max-width: 180px;
 }
 
 
@@ -99,6 +101,7 @@ main {
     border-radius: 10px;
     margin: 25px;
     padding-top: 20px;
+    max-width: 180px;
 }
 
 .blog {
