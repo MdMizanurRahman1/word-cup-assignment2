@@ -190,3 +190,88 @@ hr {
     font-size: 40px;
     color: white;
 }
+
+/*---second page assignment started from here--*/
+
+.button-group,
+.button-white {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 25px;
+    align-items: center;
+    padding-top: 20px;
+    background: #FFFFFF;
+}
+
+
+.button-match {
+    background: #DD0000;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 25px;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+.white {
+    color: black;
+    text-decoration: none;
+}
+
+/*--------match schedule area---------*/
+.parent-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+
+.match-live-button {
+    background: #161616;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.cup-match {
+    justify-content: space-around;
+    font-size: 10px;
+    margin: 5px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+
+}
+
+.time {
+    justify-content: space-around;
+    font-size: 10px;
+    font-weight: normal;
+    color: rgba(82, 80, 80, 0.7);
+}
+
+.match-list {
+    display: flex;
+    width: fit-content;
+
+}
+
+.competition {
+    padding: 15px;
+}
+
+.country-schedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 5px;
+}
+
+.schedule {
+    text-align: center;
+}
