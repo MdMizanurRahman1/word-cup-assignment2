@@ -56,15 +56,22 @@ body {
     padding-right: 48px;
 }
 
-/*-----section second starts from here----*/
+/*-----section second starts from here------------match button-blog-information---*/
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
 .match-information {
     background: #161616;
     border-radius: 10px;
-    width: 260px;
-    height: 290px;
+    width: 220px;
+    height: 280px;
     text-align: center;
-    padding: 15px;
-    margin-left: 20px;
+    padding: 20px;
+    margin-top: 14px;
 }
 
 .button1,
@@ -77,6 +84,7 @@ body {
     align-items: center;
     padding-top: 20px;
 }
+
 
 .button {
     text-decoration: none;
@@ -97,21 +105,50 @@ body {
     color: white;
 }
 
-/*---blog section--transfer--area--*/
+
+/*---transfer-blog-information--*/
+.transfer-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.transfer-information {
+    width: 230px;
+    height: 290px;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    margin: 10px;
+}
+
 .transfer-image {
-    width: 250px;
-    height: 150px;
+    width: 230px;
+    height: 120px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 15px;
 }
 
 .transfer-button {
-    width: 250px;
-    height: 200px;
+    width: 100px;
+    height: 50px;
     border: 1px solid rgba(22, 22, 22, 1);
     font-size: 12px;
     color: black;
     text-decoration: none;
-    padding: 7px;
+    padding: 10px;
     border-radius: 5px;
+    margin-left: 20px;
 }
+
+.news {
+    padding-left: 10px;
+}
+
+.duration-information {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    font-weight: normal;
+    color: rgba(82, 80, 80, 0.7);
+}
+
+/*---transfer--blog--*/
