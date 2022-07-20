@@ -62,6 +62,7 @@ main {
     display: flex;
     justify-content: center;
     margin-left: 10px;
+    margin-bottom: 60px;
 }
 
 .match-information {
@@ -151,4 +152,39 @@ main {
     color: rgba(82, 80, 80, 0.7);
 }
 
-/*---transfer--blog--*/
+/*---footer area--*/
+
+.footer-information {
+    background-color: black;
+    height: 320px;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+hr {
+    width: 85%;
+    position: center;
+    background-color: rgb(59, 55, 55);
+    border: 0 none;
+    color: rgb(180, 161, 161);
+    height: 1px;
+
+}
+
+.footer-service {
+    color: rgb(186, 177, 177);
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+}
+
+/*---footer icon social media--*/
+.footer-icon {
+    display: flex;
+    justify-content: space-evenly;
+    position: center;
+}
