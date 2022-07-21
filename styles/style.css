@@ -155,6 +155,27 @@ main {
     color: rgba(82, 80, 80, 0.7);
 }
 
+/*-----view all area starts here....bonus part..*/
+.view-all {
+    background: #DD0000;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 25px;
+    text-align: center;
+    position: center;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    display: none;
+}
+
+.view {
+    text-decoration: none;
+    color: white;
+}
+
+
 /*---footer area--*/
 
 .footer-information {
@@ -446,6 +467,7 @@ hr {
 
     }
 
+
     .transfer-blog {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 0px;
@@ -506,5 +528,12 @@ hr {
         border-radius: 5px;
         padding: 15px;
 
+    }
+
+    /*bonas...part..view..all...*/
+
+    .view-all {
+
+        display: block;
     }
 }
