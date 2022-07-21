@@ -284,3 +284,77 @@ hr {
 
 
 /*---mobile device-----*/
+
+@media only screen and (max-width:600px) {
+
+    .section-title,
+    .banner-player {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .football {
+        flex-direction: column;
+        margin: 0;
+        border-radius: 5px;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+
+    }
+
+    .section-title {
+        padding: 40px;
+    }
+
+    .banner-player {
+        width: auto;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .title-text {
+        font-size: 8px;
+    }
+
+    .button-icon {
+        width: 100px;
+    }
+
+    .transfer-information,
+    .blog-area {
+        flex-direction: column;
+    }
+
+    .transfer-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-text,
+    .footer-service,
+    .footer-icon {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-information,
+    .footer-service,
+    .footer-icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-service {
+        margin: 0px;
+    }
+
+    .footer-information {
+        height: 100%;
+    }
+}
